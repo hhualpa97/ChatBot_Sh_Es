@@ -1,0 +1,112 @@
+# OS / filesystem
+.DS_Store
+.DS_Store?
+._*
+Icon?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.code-workspace
+.history/
+*.iml
+
+# Python bytecode / artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Python builds
+build/
+dist/
+downloads/
+wheels/
+share/python-wheels/
+eggs/
+.eggs/
+sdist/
+develop-eggs/
+parts/
+var/
+lib/
+lib64/
+*.egg-info/
+*.egg
+.installed.cfg
+pip-wheel-metadata/
+pip-log.txt
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# Testing / coverage / caches
+.cache/
+.nox/
+.tox/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+.pyright/
+.coverage
+.coverage.*
+coverage.xml
+nosetests.xml
+test-output/
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/lab/workspaces/
+
+# Logs
+*.log
+logs/
+
+# Local config / secrets
+.env
+.env.*
+*.env
+*.secret
+*.secrets
+*.local
+
+# Project outputs (keep structure + READMEs)
+outputs/*
+!outputs/**/
+!outputs/**/README.md
+!outputs/**/*.gitkeep
+
+# ML experiment artifacts
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+tb_logs/
+
+# Temp files
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+
+# Node (if present)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
